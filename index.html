@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portfolio của Đặng Nguyễn Hoàng Trung, sinh viên Đại học Lạc Hồng định hướng Full-stack Web Developer và Electronics Maker."
+  >
+  <title>Đặng Nguyễn Hoàng Trung | Portfolio</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portfolio">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Đặng Nguyễn Hoàng Trung - Trang chủ">
+        <span class="brand-mark" aria-hidden="true">HT</span>
+        <span class="brand-name">Hoàng Trung<span class="brand-dot">.</span></span>
+      </a>
+
+      <nav class="site-nav" aria-label="Điều hướng chính">
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Dự án</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+
+    <main class="page-layout" id="home">
+      <aside class="sidebar" aria-label="Thông tin cá nhân">
+        <section class="profile-card" id="about" aria-labelledby="profile-title" data-aos="fade-up">
+          <div class="avatar" aria-hidden="true">HT</div>
+          <p class="eyebrow">Xin chào, mình là</p>
+          <h1 id="profile-title">Đặng Nguyễn<br>Hoàng Trung</h1>
+          <p class="profile-role">Sinh viên · Đại học Lạc Hồng</p>
+          <p class="profile-summary">
+            Mình yêu thích xây dựng sản phẩm web hữu ích và khám phá cách phần cứng
+            có thể kết nối với thế giới số.
+          </p>
+          <div class="status">
+            <span class="status-indicator" aria-hidden="true"></span>
+            Sẵn sàng học hỏi và cộng tác
+          </div>
+        </section>
+
+        <section class="about-card" aria-labelledby="about-title" data-aos="fade-up">
+          <h2 class="section-heading" id="about-title">Định hướng</h2>
+          <p>
+            Mục tiêu của mình là trở thành <strong>Full-stack Web Developer</strong>,
+            đồng thời phát triển niềm đam mê <strong>Electronics Maker</strong>.
+            Mình thường tìm hiểu ESP32, Arduino và cách kết hợp cảm biến với ứng dụng web.
+          </p>
+        </section>
+
+        <section class="contact-card" id="contact" aria-labelledby="contact-title" data-aos="fade-up">
+          <h2 class="section-heading" id="contact-title">Liên hệ</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:hoangtrung@example.com">hoangtrung@example.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Địa điểm</span>
+              <span>Đồng Nai, Việt Nam</span>
+            </li>
+            <li>
+              <span class="contact-label">Kết nối</span>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+
+      <div class="main-content">
+        <section class="intro-section" aria-labelledby="intro-title" data-aos="fade-up">
+          <p class="eyebrow">Portfolio cá nhân</p>
+          <h2 id="intro-title">Từ ý tưởng đến <span>sản phẩm thực tế.</span></h2>
+          <p>
+            Mình đang từng bước hoàn thiện kỹ năng phát triển giao diện, xây dựng
+            ứng dụng web và thử nghiệm các dự án điện tử. Đây là nơi mình lưu lại
+            hành trình học tập và những sản phẩm tiêu biểu.
+          </p>
+          <a class="button-link" href="mailto:hoangtrung@example.com">Trao đổi về dự án <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <section class="skills-section" id="skills" aria-labelledby="skills-title" data-aos="fade-up">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Nền tảng hiện tại</p>
+              <h2 class="section-heading" id="skills-title">Kỹ năng</h2>
+            </div>
+          </div>
+          <ul class="skill-list" aria-label="Danh sách kỹ năng">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>C++</li>
+            <li>Arduino</li>
+            <li>ESP32</li>
+          </ul>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-title" data-aos="fade-up">
+          <div class="section-title-row">
+            <div>
+              <p class="eyebrow">Một vài sản phẩm tiêu biểu</p>
+              <h2 class="section-heading" id="projects-title">Dự án nổi bật</h2>
+            </div>
+            <span class="project-count">03 dự án mẫu</span>
+          </div>
+
+          <div class="project-list">
+            <article class="project-card">
+              <div class="project-number" aria-hidden="true">01</div>
+              <div class="project-details">
+                <p class="project-type">Web application</p>
+                <h3>Dashboard theo dõi chi tiêu</h3>
+                <p>
+                  Giao diện quản lý thu chi cá nhân, giúp phân loại giao dịch và
+                  theo dõi ngân sách theo tháng.
+                </p>
+                <ul class="project-tags" aria-label="Công nghệ">
+                  <li>React</li>
+                  <li>Tailwind CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number" aria-hidden="true">02</div>
+              <div class="project-details">
+                <p class="project-type">IoT · Electronics</p>
+                <h3>Trạm theo dõi môi trường mini</h3>
+                <p>
+                  Mô hình thử nghiệm dùng ESP32 và cảm biến để ghi nhận nhiệt độ,
+                  độ ẩm, hướng tới hiển thị dữ liệu trên trang web.
+                </p>
+                <ul class="project-tags" aria-label="Công nghệ">
+                  <li>ESP32</li>
+                  <li>C++</li>
+                  <li>Sensor</li>
+                </ul>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </article>
+
+            <article class="project-card">
+              <div class="project-number" aria-hidden="true">03</div>
+              <div class="project-details">
+                <p class="project-type">Frontend · Responsive</p>
+                <h3>Website giới thiệu câu lạc bộ</h3>
+                <p>
+                  Trang giới thiệu hoạt động, sự kiện và thành viên câu lạc bộ,
+                  được thiết kế thân thiện trên cả điện thoại và máy tính.
+                </p>
+                <ul class="project-tags" aria-label="Công nghệ">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2025 Đặng Nguyễn Hoàng Trung</p>
+      <p>Được xây dựng bằng sự tò mò và tinh thần học hỏi.</p>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 650,
+      easing: "ease-out-cubic",
+      once: true,
+      disable: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    });
+  </script>
+</body>
+</html>
